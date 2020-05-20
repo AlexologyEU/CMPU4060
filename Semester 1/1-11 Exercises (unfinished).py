@@ -1,4 +1,4 @@
-
+ 
 ####1. Write a function to read a sentence and return a list of the length
 ####of each word.
 ####1.a use the function to read a file and return the length of each word
@@ -6,20 +6,20 @@
 
 #### Example from Stack: print([len(x) for x in test.split()])
 
-#1.
-def word_measure(text):
-    len_list = []
-    for x in text.split():
-        len_list.append(len(x))
-    print(len_list)
+# #1.
+# def word_measure(text):
+#     len_list = []
+#     for x in text.split():
+#         len_list.append(len(x))
+#     print(len_list)
 
-test = "This is a string to measure"
-word_measure(test)
+# test = "This is a string to measure"
+# word_measure(test)
 
-#1a. Needs a txt file accessible in project folder.
-test_file = open("1-8_files_exceptions_exercises.txt")
-for line in test_file:
-    word_measure(line)
+# #1a. Needs a txt file accessible in project folder.
+# test_file = open("1-8_files_exceptions_exercises.txt")
+# for line in test_file:
+#     word_measure(line)
 
 ####2.a Write a function to read a sentence and reverse every word that
 ####starts with an 'a'.
@@ -27,7 +27,25 @@ for line in test_file:
 #### with an 'a' and save the result into another file.
 
 
-def 
+# string = input("Please enter an input: ")
+# print(string[::-1])
+
+def word_reverse(text):
+    words = text.split()
+    result = []
+
+    for i in words:
+        if i[0] == 'a':
+            result.append(i[::-1])
+
+        else:result.append(i)
+    end = " ".join(result)
+    return end
+
+test = input("Enter: ")
+print(word_reverse(test))
+
+
 
 
 

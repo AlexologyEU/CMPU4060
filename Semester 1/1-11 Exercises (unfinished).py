@@ -53,7 +53,12 @@
 # for example: replace_all([1,2,5,6,2,7,1,2], [2,4], [200, 400])
 #  result: [1,200,5,6,200,7,1,200]
 
+orignial = [1,2,3,4,5]
+replace = [2,4]
+new = [200, 400]
 
+for i in orignial:
+    if i == replace
 
 
 ####4. Write a function to replace every third word in a 

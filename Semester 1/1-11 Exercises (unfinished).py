@@ -6,7 +6,6 @@
 
 #### Example from Stack: print([len(x) for x in test.split()])
 
-# #1.
 # def word_measure(text):
 #     len_list = []
 #     for x in text.split():
@@ -30,23 +29,46 @@
 # string = input("Please enter an input: ")
 # print(string[::-1])
 
-def word_reverse(text):
-    words = text.split()
-    result = []
+# def word_reverse(text):
+#     words = text.split()
+#     result = []
 
-    for i in words:
-        if i[0] == 'a':
-            result.append(i[::-1])
+#     for i in words:
+#         if i[0] == 'a':
+#             result.append(i[::-1])
 
-        else:result.append(i)
-    end = " ".join(result)
-    return end
+#         else:result.append(i)
+#     end = " ".join(result)
+#     return end
 
-test = input("Enter: ")
-print(word_reverse(test))
+# test = input("Enter: ")
+# print(word_reverse(test))
+
+
+####3. Write a function: replace_all that takes 3 parameters:
+# - list
+# - list of numbers to be replaced
+# - list of numbers to use as replacement
+
+# for example: replace_all([1,2,5,6,2,7,1,2], [2,4], [200, 400])
+#  result: [1,200,5,6,200,7,1,200]
 
 
 
+
+####4. Write a function to replace every third word in a 
+#sentence with 'hello'
+#use the function to read from a file, and output into
+#another file. 
+
+####5. Write a function to replace every word that is longer than
+# 6 characters with the word 'blah'
+# use the function to read from a file, and output into
+# another file
+
+####6. Write a program that reads a file and generates a dictionary
+# - a list of unique words. Save the words to a new file
+# one word per line
 
 
 

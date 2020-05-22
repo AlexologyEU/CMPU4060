@@ -100,7 +100,14 @@
 ####4. Write a function to replace every third word in a 
 #sentence with 'hello'
 #use the function to read from a file, and output into
-#another file. 
+#another file.
+
+sentence = "Here is a test sentence to replace words"
+for i in sentence
+
+
+
+
 
 ####5. Write a function to replace every word that is longer than
 # 6 characters with the word 'blah'
@@ -198,17 +205,6 @@
 #     print("File not available. ")
 #
 
-####Exercise 3####
-
-# list = [1, 2, 5, 6, 2, 7, 1, 2]
-# new_list = []
-#
-# for i in list:
-#     if i == 2:
-#         new_list.append(200)
-#     else:
-#         new_list.append(i)
-# print(new_list)
 
 
 

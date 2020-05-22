@@ -52,14 +52,50 @@
 
 # for example: replace_all([1,2,5,6,2,7,1,2], [2,4], [200, 400])
 #  result: [1,200,5,6,200,7,1,200]
-
-orignial = [1,2,3,4,5]
-replace = [2,4]
-new = [200, 400]
-
-for i in orignial:
-    if i == replace
-
+#
+# def num_list_replace(num_list, search_list, replace_list):
+#     result = []
+#     for i in num_list:
+#         if i == search_list[0]:
+#             result.append(replace_list[0])
+#         elif i == search_list[1]:
+#             result.append(replace_list[1])
+#         else:
+#             result.append(i)
+#     return result
+#
+#
+# number_list = []
+# search_list = []
+# replace_list = []
+#
+# number = int(input("Enter a list of numbers. To end, input a null value: "))
+# while number != 0:
+#     number_list.append(number)
+#     number = int(input("Enter a list of numbers. To end, input a null value: "))
+#     if number == 0:
+#         print("This is the completed number list: ", number_list)
+#         break
+#
+# search = int(input("Enter a list of numbers to search for. To end, input a null value: "))
+# while search != 0:
+#     search_list.append(search)
+#     search = int(input("Enter a list of numbers to search for. To end, input a null value: "))
+#     if search == 0:
+#         print("This is the completed search list: ", search_list)
+#         break
+#
+# replace = int(input("Enter a number to be used as a replacement. To end, input a null value: "))
+# while replace != 0:
+#     replace_list.append(replace)
+#     replace = int(input("Enter a number to be used as a replacement. To end, input a null value: "))
+#     if replace == 0:
+#         print("This is completed replacement list: ", replace_list)
+#         break
+#
+# input("Press 'enter' to run the program")
+# print(num_list_replace(number_list, search_list, replace_list))
+#
 
 ####4. Write a function to replace every third word in a 
 #sentence with 'hello'

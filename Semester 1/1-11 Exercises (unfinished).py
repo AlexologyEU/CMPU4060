@@ -128,6 +128,15 @@
 # use the function to read from a file, and output into
 # another file
 
+test = "Here is a test sentence with considerably longer words"
+test_split = test.split(" ")
+for length in test_split:
+    if len(length) >= 6:
+        length = "blah"
+    end = " ".join(test_split)
+print(end)
+
+
 ####6. Write a program that reads a file and generates a dictionary
 # - a list of unique words. Save the words to a new file
 # one word per line

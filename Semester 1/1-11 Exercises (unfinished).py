@@ -103,7 +103,24 @@
 #another file.
 
 sentence = "Here is a test sentence to replace words"
-for i in sentence
+sen_split = sentence.split(" ")
+for i in range(0, len(sen_split), 3):
+    sen_split[i] = "hello"
+    final = " ".join(sen_split)
+    print(final)
+
+# sen_split[2] = "hello"
+# final.join(i)
+# print(final)
+
+
+
+
+
+
+
+
+
 
 
 

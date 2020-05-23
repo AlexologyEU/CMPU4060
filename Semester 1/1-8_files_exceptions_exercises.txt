@@ -1,12 +1,16 @@
-Exercise 1: Write a Python program that opens a text file, reads the contents line by line and saves it into a second file.
+Exercise 1: Write a Python program that opens a text file, reads the contents line by line 
+and saves it into a second file.
 
 Make sure you use try/except to handle and possible problems with incorrect filenames.
 
-Exercise 2: Write a Python program that opens a text file, reads the contents line by line and prints each line in reverse.
+Exercise 2: Write a Python program that opens a text file, reads the contents line by line 
+and prints each line in reverse.
 
-Exercise 3: Write a Python program that reads a text file and prints only the lines that start with 'When'.
+Exercise 3: Write a Python program that reads a text file and prints only the lines that 
+start with 'When'.
 
-Exercise 4: Write a Python program that reads a text file and prints the length of each line.
+Exercise 4: Write a Python program that reads a text file and prints the length of each 
+line.
 
 ---
 Sample text:

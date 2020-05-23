@@ -101,25 +101,26 @@
 #sentence with 'hello'
 #use the function to read from a file, and output into
 #another file.
-
-def hello_step(string):
-    sen_split = string.split(" ")
-    for i in range(2, len(sen_split), 3):
-        sen_split[i] = "hello"
-    final = " ".join(sen_split)
-    return final
-
-
-
-
-
-
-
-
-
-
-
-
+#
+# def hello_step(string):
+#     sen_split = string.split(" ")
+#     for i in range(2, len(sen_split), 3):
+#         sen_split[i] = "hello"
+#     final = " ".join(sen_split)
+#     return final
+#
+# # import shutil
+# # shutil.copyfile("1-8_files_exceptions_exercises.txt", "1-8_files_copy.txt")
+#
+#
+# in_file = open("1-8_files_exceptions_exercises.txt", "r")
+# out_file = open("result.txt", "w")
+#
+# for text in in_file:
+#     out_file.write(hello_step(text) + "\n")
+#
+# in_file.close()
+# out_file.close()
 
 
 ####5. Write a function to replace every word that is longer than

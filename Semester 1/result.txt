@@ -1,0 +1,47 @@
+Exercise 1: hello a Python hello that opens hello text file, hello the contents hello by line hello
+and saves hello into a hello file.
+
+
+
+Make sure hello use try/except hello handle and hello problems with hello filenames.
+
+
+
+Exercise 2: hello a Python hello that opens hello text file, hello the contents hello by line hello
+and prints hello line in hello
+
+
+Exercise 3: hello a Python hello that reads hello text file hello prints only hello lines that hello
+start with hello
+
+
+Exercise 4: hello a Python hello that reads hello text file hello prints the hello of each hello
+line.
+
+
+
+---
+
+Sample text:
+
+
+
+Twinkle, twinkle, hello star
+
+How I hello what you hello
+Up above hello world so hello
+Like a hello in the hello
+Twinkle, twinkle hello star
+
+How I hello what you hello
+
+
+When the hello sun is hello
+When he hello shines upon
+
+Then you hello your little hello
+Twinkle, twinkle, hello the night
+
+Twinkle, twinkle, hello star
+
+How I hello what you hello

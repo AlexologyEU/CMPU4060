@@ -1,0 +1,26 @@
+Exercise 1: Write a Python program that opens a text file, reads the contents line by line and saves it into a second file.
+
+Make sure you use try/except to handle and possible problems with incorrect filenames.
+
+Exercise 2: Write a Python program that opens a text file, reads the contents line by line and prints each line in reverse.
+
+Exercise 3: Write a Python program that reads a text file and prints only the lines that start with 'When'.
+
+Exercise 4: Write a Python program that reads a text file and prints the length of each line.
+
+---
+Sample text:
+
+Twinkle, twinkle, little star
+How I wonder what you are
+Up above the world so high
+Like a diamond in the sky
+Twinkle, twinkle little star
+How I wonder what you are
+
+When the blazing sun is gone
+When he nothing shines upon
+Then you show your little light
+Twinkle, twinkle, all the night
+Twinkle, twinkle, little star
+How I wonder what you are

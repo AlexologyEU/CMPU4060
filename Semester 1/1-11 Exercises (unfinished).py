@@ -102,16 +102,12 @@
 #use the function to read from a file, and output into
 #another file.
 
-sentence = "Here is a test sentence to replace words"
-sen_split = sentence.split(" ")
-for i in range(0, len(sen_split), 3):
-    sen_split[i] = "hello"
+def hello_step(string):
+    sen_split = string.split(" ")
+    for i in range(2, len(sen_split), 3):
+        sen_split[i] = "hello"
     final = " ".join(sen_split)
-    print(final)
-
-# sen_split[2] = "hello"
-# final.join(i)
-# print(final)
+    return final
 
 
 

@@ -133,8 +133,8 @@ test_split = test.split(" ")
 for length in test_split:
     if len(length) >= 6:
         length = "blah"
-    end = " ".join(test_split)
-print(end)
+    finish = " ".join(length)
+    print(finish)
 
 
 ####6. Write a program that reads a file and generates a dictionary

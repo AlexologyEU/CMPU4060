@@ -9,7 +9,7 @@
 # age = input("Please enter your age: ")
 # print("Hello " + name + ", " "you are", age, "years old")
 
-####3 Ask a uer for the width and height of a rectangle. Print the area.
+####3 Ask a user for the width and height of a rectangle. Print the area.
 
 # width = input("Enter the width: ")
 # height = input("Enter the height: ")

@@ -1,6 +1,7 @@
 ####1. Write a program which finds and prints all numbers between
 ####2000 and 3200 (inclusive) which are divisible by 7 and not
 ####a multiple of 5.
+
 #for i in range(2000, 3201):
 #   if i % 7 == 0 and  i % 5 != 0:
 #         print (i)
@@ -14,7 +15,17 @@
 #         a += 1
 # print(a)
 
+####Improved:
+
+# string = input("Please enter a sequence of numbers: ")
+# total = 0
+# for i in list(string):
+#     if i.isdigit():
+#         total += 1
+# print(total)
+
 ####Exercise 2 TEACHER SOLUTION###
+####I got the same as the teacher! ####
 # s = input("Enter a string")
 # number = 0
 # for c in s:
@@ -22,8 +33,6 @@
 #      number += 1
 # print(number)
 
-#  print(c, c.isdigit())
-      #####REMEMER .####
 
 ####3. Extend your program from ex.2 to count how many letters
 ####(a-z or A-Z) are in a sentence entered by the user
@@ -42,6 +51,20 @@
 # print(a)
 # print(b)
 # print(d)
+
+####Improved, same as teacher! :
+# string = input("Please enter a group of letters and numbers: ")
+#
+# lt_total = 0
+# nu_total = 0
+# for c in string:
+#     if c.isdigit():
+#         nu_total += 1
+#     elif c.isalpha():
+#         lt_total += 1
+# print("The string: ", string, " contains: \n"
+#       , lt_total, "letters \n"
+#       , nu_total, "numbers")
 
 ####EXERCISE 3 Teacher solution ####
 # s = input("Enter a string")

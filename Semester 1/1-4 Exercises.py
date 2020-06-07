@@ -1,9 +1,12 @@
-####Exercise 1 ####
+####1. Write a program which finds and prints all numbers between
+####2000 and 3200 (inclusive) which are divisible by 7 and not
+####a multiple of 5.
 #for i in range(2000, 3201):
 #   if i % 7 == 0 and  i % 5 != 0:
 #         print (i)
 
-###Exercise 2####
+####2. Write a program that will count how man digits (0-9) are
+####in a string entered by a user.
 # i = input("Please enter a string of numbers: ")
 # a = 0
 # for c in i:
@@ -22,7 +25,8 @@
 #  print(c, c.isdigit())
       #####REMEMER .####
 
-####Exercise 3####
+####3. Extend your program from ex.2 to count how many letters
+####(a-z or A-Z) are in a sentence entered by the user
 # s = input("Please enter a string")
 # a = 0
 # b = 0
@@ -51,7 +55,8 @@
 # print("digits: ", number_digits)
 # print("letters: ", number_letter)
 
-#####Exercise 4####
+#####4. Write a program to find and print the sum of digits of a
+####number entered by the user.
 
 # sum = 1
 # s = input("please enter some numbers: ")
@@ -59,7 +64,7 @@
 #     sum = sum * int(c)
 # print(sum)
 
-####Exercise 14 Teacher Solution ####
+####Exercise 4 Teacher Solution ####
 
 # number = input("Please enter a number: ")
 # sum = 0
@@ -68,7 +73,10 @@
 # print(sum)
 
 
-####Exercise 15 TEACHER SOLTION BETTER####
+####5.Write a program to keep asking the user to enter positive
+####numbers and terminates when a negative is entered.
+####When the program finishes, print how many positives and
+####negatives were entered and what was the smallest number.
 
 # n = int(input("Please enter a number, the game terminates when you add a negative: "))
 # min = n
@@ -92,8 +100,16 @@
 # print("Total number of numbers entered: ", count - 1)
 # print("The smallest number entered: ", min)
 
+####Extra Ex 1: Guess the number.
+####Use a variable to store a secret nummber. Ask the user to guess
+####the number and reply 'too high' or 'too low', keep asking
+#### until the user guesses the correct number.
 
-###Extra Exercise 1####
+
+
+
+
+###Extra Exercise 1#### Teacher solution?
 # from random import randint
 # x = randint(1, 10)
 # print(x)
@@ -109,5 +125,15 @@
 #         print("You got it!")
 
 
+####Extra Ex.2: Ask the user for a number and print all divisors
+####of that number. For example 2,3,4 and 6 are divisors of 12
 
+####Extra Ex.3 Write a program for checking the speed of drivers.
+####The program should ask for user speed and do one of the
+####following:
+#### if speed is less than 70, print 'ok'
+####if speed is more than 70: for every 5KM over it should give
+####one demerit.
+#### if the driver gets more than 12 points, the program should print
+####'licence suspended'
 

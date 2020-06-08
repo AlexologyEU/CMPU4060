@@ -84,7 +84,7 @@
 # sum = 1
 # s = input("please enter some numbers: ")
 # for c in s:
-#     sum = sum * int(c)
+#     sum = sum + int(c)
 # print(sum)
 
 ####Exercise 4 Teacher Solution ####

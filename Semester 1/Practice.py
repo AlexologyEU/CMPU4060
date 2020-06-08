@@ -1,76 +1,58 @@
 
-#### 1. Write while loop that prints number 1 to 10 on the screen
 
-# num_list = []
-# number = 1
-# while number < 11:
-#     num_list.append(number)
-#     number += 1
-# print(num_list)
+####1. Write a program which finds and prints all numbers between
+####2000 and 3200 (inclusive) which are divisible by 7 and not
+####a multiple of 5.
 
-#### 2. Write a for loop that prints number 1 to 10 on screen
+# complete = []
+# for i in range(2000, 3201):
+#     if i % 7 == 0 and i % 5 != 0:
+#         complete.append(i)
+# print(complete, sep="\n")
 
-# list = []
-# for i in range(1, 11):
-#     list.append(i)
-# print(list)
 
-####3. Write for loop that iterates from 0 to 20. For each iteration it checks if
-####number is even or odd and prints: 1 is odd, 2 is even
+####2. Write a program that will count how man digits (0-9) are
+####in a string entered by a user.
 
-# for n in range(0, 21):
-#     if n % 2 == 0:
-#         print(n, "is even")
-#     elif n % 2 == 1:
-#         print(n, "is odd")
-
-####4. Write a for loop that iterates from 0 to 10. For each iteration it will
-#### multiply by 9 and print: 2 * 9 = 18
-#
-# for i in range(0, 11):
-#     print(i, "multiplied by 9 equals: ", i * 9)
-
-####5. Program that asks for a number and prints the sum of all numbers from 1
-#### to the number they enter.
-
-# number = int(input("Please enter a number: "))
+# test = input("Please enter a sting of numbers: ")
 # total = 0
-# for i in range(0, number):
-#     total += i
-# print(total)
+# for i in list(test):
+#     if i.isdigit():
+#         total += 1
+# print("There are ", total, "digits in the string: ", test)
 
-#### 6. Write a program to calculate and print the factorial of a number using a
-#### for loop. EG. factorial of 4: 4*3*2*1 = 24
+####3. Extend your program from ex.2 to count how many letters
+####(a-z or A-Z) are in a sentence entered by the user
 
-# total = 1
-# number = int(input("Please enter a number: "))
-# for i in range(1, number + 1):
-#     total = total * i
-# print(total)
+# test = input("Please enter some chars and digits to be counted: ")
+# num_total = 0
+# char_total = 0
+# for i in test:
+#     if i.isdigit():
+#         num_total += 1
+#     elif i.isalpha():
+#         char_total += 1
+# print("There are ", num_total, "Digits and ", char_total, "Chars in the string:", test)
 
-#### 7. Program to ask for a number and print it on the screen. Keep asking until
-#### a negative is given.
+#####4. Write a program to find and print the sum of digits of a
+####number entered by the user.
 
-# number = int(input("Enter a number: "))
-# while number % 2 != 1:
-#     number = int(input("Enter another number: "))
-# else:
-#     print("The number", number, "is odd")
+# sum = 1
+# test = input("Please enter some digits to be summed.")
+# for s in test:
+#     sum = sum + int(s)
+# print(sum)
 
-#### 8. Write a program that uses loops to print the triangle below:
-#   *
-#   **
-#   ***
-#   ****
-#   *****
+####5.Write a program to keep asking the user to enter positive
+####numbers and terminates when a negative is entered.
+####When the program finishes, print how many positives and
+####negatives were entered and what was the smallest number.
 
-#
-# for i in range(0, 5):
-#     for j in range(0, (i+1)):
-#         print("*", end="")
-#     print(" ")
+number = input("Enter a number, to end, enter a negative number")
+while number >= 0:
+    number = input("Enter a number, to end, enter a negative number")
 
-for i in range(0, 5):
-    for j in range(0, (i+1)):
-        print("*", end="")
-    print("")
+
+
+
+

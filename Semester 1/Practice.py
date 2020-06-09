@@ -48,9 +48,71 @@
 ####When the program finishes, print how many positives and
 ####negatives were entered and what was the smallest number.
 
-number = input("Enter a number, to end, enter a negative number")
-while number >= 0:
-    number = input("Enter a number, to end, enter a negative number")
+# number = int(input("Enter a number, to end, enter a negative number: "))
+# low = number
+# total = 0
+# while number > 0:
+#     if number < low:
+#         low = number
+#         number = int(input("Enter a number, to end, enter a negative number: "))
+#     else:
+#         number = int(input("Enter a number, to end, enter a negative number: "))
+#     total += 1
+# if number < 0:
+#     print("The total number of positives: ", total)
+#     print("The lowest number was: ", low)
+
+
+####Extra Ex 1: Guess the number.
+####Use a variable to store a secret nummber. Ask the user to guess
+####the number and reply 'too high' or 'too low', keep asking
+#### until the user guesses the correct number.
+
+import sys
+from random import randint
+ans = randint(0, 10)
+count = 10
+
+print("----")
+print("Welcome to the guessing game. ")
+print("Try to guess a number between 0 and 100")
+print("You start with 10 guesses.")
+print("----")
+
+input("Press 'enter' to start.")
+
+while count > 0:
+    print("You have ", count, "guesses remaining")
+    guess = int(input("Take a guess: "))
+    count -= 1
+    while guess != ans:
+        if guess > ans:
+            print("----")
+            print("That's too high. ")
+            print("You have ", count, "guesses remaining")
+            print("----")
+            guess = int(input("Take a guess: "))
+            count -= 1
+        elif guess < ans:
+            print("----")
+            print("That's too low.")
+            print("You have ", count, "guesses remaining")
+            print("----")
+            guess = int(input("Take a guess: "))
+            count -= 1
+
+    if guess == ans:
+        print("You got it! ")
+        print("Thanks for playing.")
+        break
+
+if count == 0:
+    print("Oh no, you ran out of guesses!")
+    sys.exit()
+
+
+
+
 
 
 

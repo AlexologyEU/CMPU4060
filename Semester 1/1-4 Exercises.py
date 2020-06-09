@@ -129,9 +129,6 @@
 #### until the user guesses the correct number.
 
 
-
-
-
 ###Extra Exercise 1#### Teacher solution?
 # from random import randint
 # x = randint(1, 10)

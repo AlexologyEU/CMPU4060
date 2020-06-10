@@ -126,7 +126,52 @@
 ####Extra Ex 1: Guess the number.
 ####Use a variable to store a secret nummber. Ask the user to guess
 ####the number and reply 'too high' or 'too low', keep asking
-#### until the user guesses the correct number.
+#### until the user guesses the correct number.####
+####Problem with the guess count and lacking finesse
+
+#
+# import sys
+# from random import randint
+# ans = randint(0, 100)
+# count = 5
+#
+# print("----")
+# print("Welcome to the guessing game. ")
+# print("Try to guess a number between 0 and 100")
+# print("You start with 10 guesses.")
+# print("----")
+#
+# input("Press 'enter' to start.")
+#
+# while count >= 1:
+#     print("You have ", count, "guesses remaining")
+#     guess = int(input("Take a guess: "))
+#     count -= 1
+#     # while guess != ans:
+#     if guess > ans:
+#         print("----")
+#         print("That's too high. ")
+#         print("You have ", count, "guesses remaining")
+#         print("----")
+#         guess = int(input("Take a guess: "))
+#         count -= 1
+#
+#     elif guess < ans:
+#         print("----")
+#         print("That's too low.")
+#         print("You have ", count, "guesses remaining")
+#         print("----")
+#         guess = int(input("Take a guess: "))
+#         count -= 1
+#
+#     if guess == ans:
+#         print("You got it! ")
+#         print("Thanks for playing.")
+#         break
+#
+# print("Oh no, you ran out of guesses!")
+# print("The number was: ", ans)
+# sys.exit()
 
 
 ###Extra Exercise 1#### Teacher solution?
@@ -148,6 +193,15 @@
 ####Extra Ex.2: Ask the user for a number and print all divisors
 ####of that number. For example 2,3,4 and 6 are divisors of 12
 
+# num = int(input("Please enter a number to search for its divisors: "))
+# div = []
+# for x in range(1, num):
+#     if num % x == 0:
+#         div.append(x)
+#
+# print(div)
+
+
 ####Extra Ex.3 Write a program for checking the speed of drivers.
 ####The program should ask for user speed and do one of the
 ####following:
@@ -156,4 +210,20 @@
 ####one demerit.
 #### if the driver gets more than 12 points, the program should print
 ####'licence suspended'
+#
+# speed = int(input("Enter you speed: "))
+# points = 0
+#
+# if speed <= 69:
+#     print("Your speed is correct. ")
+#
+# elif speed >= 70:
+#     for i in range(70, speed, 5):
+#         points += 1
+#     if points > 12:
+#         print("You done messed up now m-fucker! Your licence is gone!")
+#
+#     else:
+#         print("Your speed earned: ", points, "penalty points.")
+#
 

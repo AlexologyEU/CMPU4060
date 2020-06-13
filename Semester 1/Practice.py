@@ -1,20 +1,12 @@
 
-####4. Write a program that will reverse a string (using a loop)
+####5. Write a program that will 'encrypt' a string. Add 1 to the
+####ASCII code ('a' becomes 'b')
+####use ord + chr
 
-# string = input("Enter a string: ")
-# end = ""
-#
-# for i in string.split()[::-1]:
-#     end += i
-#
-# print(end)
+y = chr(65)
+print(type(y), y)
 
-string1 = "Hello there"
-string2 = ""
 
-i = len(string1)-1
 
-while(i >= 0):
-    string2 = string2 + string1[i]
-    i = i-1
-print(string2)
+for i in range(65, 65 + 26):
+    print(chr(i), end="")

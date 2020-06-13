@@ -82,13 +82,14 @@
 #         complete = True
 
 ####4. Write a program that will reverse a string (using a loop)
+
+####3 Original, messy solutions.
 # string = "Hello World"
 # new_str = ""
 # for i in range(len(string)-1, -1, -1):
 #     new_str = new_str + string[i]
 # print(new_str)
-
-
+#
 # s = "hello"
 # new_str = ""
 # for c in s:
@@ -96,7 +97,7 @@
 #     ####OR####
 #     # new_str = c + new_str
 # print(new_str)
-
+#
 # s = "hello"
 # i = len(s) - 1
 # new_str = ""
@@ -104,6 +105,19 @@
 #     new_str = new_str + s[i]
 #     i = i - 1
 # print(new_str)
+
+#### Improved solution with function:
+# str_in = input(str("Please enter a string: "))
+#
+# def str_loop_convert(string):
+#     str_out = ""
+#     for i in string:
+#         str_out = string[::-1]
+#     return str_out
+#
+#
+# print(str_loop_convert(str_in))
+
 
 ####5. Write a program that will 'encrypt' a string. Add 1 to the
 ####ASCII code ('a' becomes 'b')
